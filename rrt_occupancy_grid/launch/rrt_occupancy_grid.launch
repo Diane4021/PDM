@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+<include file="$(find map_server)/launch/rviz_mymap.launch">
+</include>
+
+<node
+   pkg="rrt_occupancy_grid"
+   type="rrt_occupancy"
+   name="rrt_occupancy_node"
+/>
+
+</launch>
+
